@@ -1,6 +1,6 @@
 
 async function searchshow(query){
-    const url =  `http://api.tvmaze.com/search/shows?q=${query}`
+    const url =  `https://api.tvmaze.com/search/shows?q=${query}`
     
         let res = await fetch(url)
 
